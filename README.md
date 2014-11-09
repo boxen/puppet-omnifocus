@@ -8,8 +8,18 @@ and ideas into to do lists.
 
 ## Usage
 
+To install the latest 1.x release:
+
 ```puppet
 include omnifocus
+```
+
+or install a specific version:
+
+```puppet
+class { 'omnifocus':
+  version => '2.0.3'
+}
 ```
 
 ## Required Puppet Modules
