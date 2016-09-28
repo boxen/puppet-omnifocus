@@ -1,32 +1,7 @@
 # OmniFocus
 
-[![Build Status](https://travis-ci.org/boxen/puppet-omnifocus.png?branch=master)](https://travis-ci.org/boxen/puppet-omnifocus)
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-[OmniFocus](https://www.omnigroup.com/products/omnifocus/) is a personal task manager by The Omni Group for Mac OS X and
-iOS. The declared goal of the program is to be able to capture thoughts
-and ideas into to do lists.
-
-## Usage
-
-To install the latest 2.x release:
-
-```puppet
-include omnifocus
-```
-
-or install the latest version from the 1.x line:
-
-```puppet
-class { 'omnifocus':
-  version => '1.10.4'
-}
-```
-
-## Required Puppet Modules
-
-* `boxen`
-
-## Development
-
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
